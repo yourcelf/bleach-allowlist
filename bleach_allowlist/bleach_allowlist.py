@@ -54,7 +54,7 @@ markdown_tags = [
     "h1", "h2", "h3", "h4", "h5", "h6",
     "b", "i", "strong", "em", "tt",
     "p", "br",
-    "span", "div", "blockquote", "code", "hr",
+    "span", "div", "blockquote", "code", "pre", "hr"
     "ul", "ol", "li", "dd", "dt",
     "img",
     "a",
