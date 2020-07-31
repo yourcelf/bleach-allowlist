@@ -33,7 +33,7 @@ Properties:
 - ``all_styles``: A list of all CSS properties supported by major browsers.
 - ``standard_styles``: A list of standard (non-vendor-specific) CSS properaties.
 
-See `bleach_allowlist.py <https://github.com/yourcelf/bleach-allowlist/blob/master/bleach_allowlist/bleach_allowlist.py>`_ for more.
+See `bleach_allowlist.py <https://github.com/yourcelf/bleach-allowlist/blob/main/bleach_allowlist/bleach_allowlist.py>`_ for more.
 
 Have improvements or lists of tags suitable for other purposes?  Please send a
 pull request!  Let's build a few good task-specific allow-lists rather than
