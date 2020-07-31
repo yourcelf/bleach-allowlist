@@ -7,14 +7,14 @@ with open(os.path.join(os.path.dirname(__file__), "README.rst")) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='bleach-whitelist',
-    version='0.0.10',
-    packages=['bleach_whitelist'],
+    name='bleach-allowlist',
+    version='1.0.0',
+    packages=['bleach_allowlist'],
     include_package_data=True,
     license='BSD License',
     description='Curated lists of tags and attributes for sanitizing html',
     long_description=README,
-    url="https://github.com/yourcelf/bleach-whitelist.git",
+    url="https://github.com/yourcelf/bleach-allowlist.git",
     author="Charlie DeTar",
     author_email="cfd@media.mit.edu",
     classifiers=[

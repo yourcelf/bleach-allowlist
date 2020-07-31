@@ -44,7 +44,7 @@ generally_xss_unsafe = [
 ]
 
 # Tags that, if included on the page, will probably not break markup or open
-# XSS.  Note that these must be combined with attribute whitelisting, or things
+# XSS.  Note that these must be combined with attribute allow-lists, or things
 # like <img> and <style> could still be unsafe.
 generally_xss_safe = list(set(all_tags) - set(generally_xss_unsafe))
 generally_xss_safe.sort()
