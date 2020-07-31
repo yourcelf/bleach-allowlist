@@ -44,7 +44,7 @@ generally_xss_unsafe = [
 ]
 
 # Tags that, if included on the page, will probably not break markup or open
-# XSS.  Note that these must be combined with attribute whitelisting, or things
+# XSS.  Note that these must be combined with attribute allow-lists, or things
 # like <img> and <style> could still be unsafe.
 generally_xss_safe = list(set(all_tags) - set(generally_xss_unsafe))
 generally_xss_safe.sort()
@@ -54,7 +54,7 @@ markdown_tags = [
     "h1", "h2", "h3", "h4", "h5", "h6",
     "b", "i", "strong", "em", "tt",
     "p", "br",
-    "span", "div", "blockquote", "code", "hr",
+    "span", "div", "blockquote", "code", "pre", "hr"
     "ul", "ol", "li", "dd", "dt",
     "img",
     "a",
