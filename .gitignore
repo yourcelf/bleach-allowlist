@@ -5,3 +5,4 @@
 deploy.sh
 *.egg-info/
 dist
+build
