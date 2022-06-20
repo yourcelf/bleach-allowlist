@@ -2,7 +2,7 @@ all_tags = [
     "a", "abbr", "acronym", "address", "applet", "area", "article", "aside", "audio",
     "b", "base", "basefont", "bdi", "bdo", "bgsound", "big", "blink", "blockquote", "body", "br", "button",
     "canvas", "caption", "center", "cite", "code", "col", "colgroup", "command", "content",
-    "data", "datalist", "dd", "del", "detals", "dfn", "dialog", "dir", "div", "dl", "dt",
+    "data", "datalist", "dd", "del", "details", "dfn", "dialog", "dir", "div", "dl", "dt",
     "element", "em", "embed",
     "fieldset", "figcaption", "figure", "font", "footer", "form", "frame", "frameset",
     "h1", "h2", "h3", "h4", "h5", "h6", "head", "header", "hgroup", "hr", "html",
